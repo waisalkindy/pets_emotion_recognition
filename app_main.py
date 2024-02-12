@@ -40,6 +40,7 @@ st.markdown(streamlit_style, unsafe_allow_html=True)
 
 # Load your trained model
 best_model = load_model('EfficientNetB3_model_67.h5')
+#best_model = load_model('EfficientNetB3_model_67_full.h5')
 
 def preprocess_image(uploaded_file):
     # Load the uploaded image
